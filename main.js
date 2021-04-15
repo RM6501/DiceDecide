@@ -20,8 +20,8 @@ var image=document.querySelector(".img2").setAttribute("src",changeImg2);
      document.querySelector("h1").textContent="🎊Player1 Wins🎉";
    }
    else if (randomNumber1 == randomNumber2) {
-     document.querySelector("h1").textContent="🎊Player2 Wins🎉";
+     document.querySelector("h1").textContent="DRAW!!😂";
    }
    else {
-      document.querySelector("h1").textContent="DRAW!!😂";
+      document.querySelector("h1").textContent="🎊Player2 Wins🎉";
    }
